@@ -3,15 +3,16 @@ import logo from '@/public/logo.png'
 
 const Navbar: React.FC = () => {
   return (
-    <div className="navbar bg-red-500">
-      <div className="navbar-start">
-        <div className="w-full sm:w-auto" >
+    <div className="navbar bg-transparent">
+      <div className="navbar-start flex items-center">
+        
         <Image 
         src={logo} 
         alt="logo"
-        className="pl-4 pt-2 pb-2 pr-2"
+        //sizes="27vw"
+        className="pl-4 pt-2 pb-2 pr-1 w-1/4 sm:w-1/6 md:w-1/8 lg:w-1/10 xl:w-1/12"
         />
-        </div>
+        
 
 
         <a className="btn btn-ghost normal-case text-xl sm:text-lg md:text-xl lg:text-2xl">Filcon Sales and Service</a>
