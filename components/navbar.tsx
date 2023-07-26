@@ -9,13 +9,12 @@ const Navbar: React.FC = () => {
         <Image 
         src={logo} 
         alt="logo"
-        //sizes="27vw"
         className="pl-4 pt-2 pb-2 pr-1 w-1/4 sm:w-1/6 md:w-1/8 lg:w-1/10 xl:w-1/12"
         />
         
 
 
-        <a className="btn btn-ghost normal-case text-xl sm:text-lg md:text-xl lg:text-2xl">Filcon Sales and Service</a>
+        <a className="btn btn-ghost normal-case text-xl sm:text-lg md:text-xl lg:text-2xl">Filcon Sales & Service</a>
         </div>
 
  
