@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import photo1 from "@/public/1.jpg";
-import photo2 from "@/public/2.jpg";
+
 
 import Navbar from "./navbar";
 
