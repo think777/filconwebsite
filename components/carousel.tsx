@@ -20,7 +20,7 @@ const Carousel: React.FC = () => {
   <div className="hero-overlay bg-opacity-80 bg-black z-10 flex items-center justify-center w-full h-full">
     <div className="hero-content text-center text-neutral-content sm:text-xl text-sm sm:mt-0 mt-[5vh] z-10">
       <div className="max-w-md">
-        <h1 className="mb-5 text-5xl font-bold">India's Largest Filtration Provider</h1>
+        <h1 className="mb-5 text-5xl font-bold">India&apos;s Largest Filtration Provider</h1>
         <p className="mb-5">
           Filter Pads also now available!
         </p>
