@@ -14,7 +14,7 @@ const Carousel: React.FC = () => {
   return (
 <div className="relative hero sm:h-[70vh] h-[60vh] flex items-center justify-center">
   <Image src={photo1} alt="Image" className="absolute inset-0 h-full w-full object-cover"/> 
-  <div className="z-50 fixed flex top-0 w-full">
+  <div className="z-50 absolute flex top-0 w-full">
     <Navbar />
   </div>
   <div className="hero-overlay bg-opacity-80 bg-black z-10 flex items-center justify-center w-full h-full">
