@@ -1,3 +1,4 @@
+import Brands from "@/components/Brands"
 import Features from "@/components/Features"
 import Video from "@/components/Video"
 import Carousel from "@/components/carousel"
@@ -10,6 +11,7 @@ export default function Home() {
     <Carousel />
     <Features />
     <Video />
+    <Brands />
     
     </main>
   )
